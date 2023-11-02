@@ -5,8 +5,6 @@ import openai
 import os
 from datetime import datetime
 
-
-OPENAI_API_KEY="<YOUR-API-KEY-HERE>"
 openai.api_key = OPENAI_API_KEY
 
 prompt = "You are a witty, helpful assistant that will help clients with any questions they may have."
